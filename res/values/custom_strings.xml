@@ -352,4 +352,8 @@
     <string name="ambient_battery_percent_title">Battery level</string> 
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
 
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
 </resources>

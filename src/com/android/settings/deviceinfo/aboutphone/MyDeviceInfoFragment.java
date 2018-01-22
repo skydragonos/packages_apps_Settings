@@ -37,6 +37,7 @@ import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
 import com.android.settings.deviceinfo.BrandedAccountPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
+import com.android.settings.deviceinfo.BuildDatePreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
@@ -114,6 +115,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(deviceNamePreferenceController);
         controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
+        controllers.add(new BuildDatePreferenceController(context));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));

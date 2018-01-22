@@ -83,4 +83,12 @@
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
 
+    <!-- Build date -->
+    <Preference 
+       android:key="build_date"
+       android:order="44"
+       android:title="@string/build_date"
+       settings:keywords="@string/keywords_build_date"
+       android:summary="@string/build_date_default" />
+
 </PreferenceScreen>

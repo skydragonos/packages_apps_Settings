@@ -31,6 +31,7 @@ import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+import com.android.settings.deviceinfo.BuildDatePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -125,6 +126,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
             Activity activity, Fragment fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new SimStatusPreferenceController(context, fragment));
+        controllers.add(new BuildDatePreferenceController(context));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));

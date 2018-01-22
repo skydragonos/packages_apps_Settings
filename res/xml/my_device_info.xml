@@ -71,10 +71,18 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"/>
 
+     <!-- Build date -->
+    <Preference 
+       android:key="build_date"
+       android:order="7"
+       android:title="@string/build_date"
+       settings:keywords="@string/keywords_build_date"
+       android:summary="@string/build_date_default" />
+
     <!-- Changelog -->
     <Preference
         android:key="changelog"
-        android:order="7"
+        android:order="8"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.Changelog" />
@@ -82,7 +90,7 @@
     <!-- Phone Info -->
     <Preference
         android:key="radioinfo"
-        android:order="8"
+        android:order="9"
         android:title="@string/device_info_title"
         android:summary="@string/device_info_summary"
         android:persistent="false"
