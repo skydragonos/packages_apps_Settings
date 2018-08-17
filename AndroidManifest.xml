@@ -3327,13 +3327,13 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <!-- NitrogenSettings -->
-        <activity android:name=".Settings$NitrogenSettingsActivity"
-            android:label="@string/nitrogen_settings_title"
-            android:icon="@drawable/ic_homepage_nitrogen"
+        <!-- SkyDragonSettings -->
+        <activity android:name=".Settings$SkyDragonSettingsActivity"
+            android:label="@string/skydragon_settings_title"
+            android:icon="@drawable/ic_homepage_skydragon"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
-                <action android:name="com.nitrogen.settings.NitrogenSettings" />
+                <action android:name="com.skydragon.settings.SkyDragonSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3348,11 +3348,11 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.nitrogen.settings.NitrogenSettings" />
+                android:value="com.skydragon.settings.SkyDragonSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/nitrogen_settings_summary"/>
+                android:resource="@string/skydragon_settings_summary"/>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->

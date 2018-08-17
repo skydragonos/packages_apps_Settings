@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Nitrogen Settings -->
-    <string name="nitrogen_settings_title">Персонализация</string>
-    <string name="nitrogen_settings_summary">Дополнительные настройки</string>
+    <!-- SkyDragon Settings -->
+    <string name="skydragon_settings_title">Dragon\'s Den</string>
+    <string name="skydragon_settings_summary">Customization settings</string>
 
 </resources>
