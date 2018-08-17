@@ -35,6 +35,13 @@
         android:title="@string/sim_status_title"
         settings:keywords="@string/keywords_sim_status"
         android:summary="@string/summary_placeholder"/>
+        <!-- Changelog -->
+        <PreferenceScreen
+                android:key="changelog"
+                android:title="@string/changelog_title"
+                android:summary="@string/changelog_summary"
+                android:fragment="com.android.settings.Changelog" />
+
 
     <!-- Model & hardware -->
     <Preference
