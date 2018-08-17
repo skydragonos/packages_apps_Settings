@@ -22,15 +22,15 @@
             <solid
                 android:color="@color/homepage_skydragon_background" />
             <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
+                android:width="48dp"
+                android:height="48dp" />
         </shape>
     </item>
 
     <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
+        android:width="48dp"
+        android:height="48dp"
+        android:start="0dp"
+        android:top="0dp"
         android:drawable="@drawable/ic_settings_skydragon" />
 </layer-list>
