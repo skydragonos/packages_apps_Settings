@@ -16,6 +16,15 @@
     <string name="skydragon_settings_title">Dragon\'s Den</string>
     <string name="skydragon_settings_summary">Customization settings</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">View recent changes</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+    <string name="device_info_summary">*#*#4636#*#*</string>
+
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
