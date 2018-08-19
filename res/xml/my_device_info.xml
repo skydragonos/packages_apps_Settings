@@ -27,24 +27,54 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
-    <!-- Device name -->
-    <com.android.settings.widget.ValidatedEditTextPreference
-        android:key="device_name"
-        android:order="1"
-        android:title="@string/my_device_info_device_name_preference_title"
-        android:summary="@string/summary_placeholder"/>
-
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:order="2"
+        android:order="1"
         android:title="@string/my_device_info_account_preference_title"
+        android:summary="@string/summary_placeholder"/>
+
+    <!-- Emergency Info -->
+    <Preference
+        android:key="emergency_info"
+        android:order="2"
+        android:title="@string/emergency_info_title"
+        android:summary="@string/summary_placeholder"/>
+
+    <!-- Device name -->
+    <com.android.settings.widget.ValidatedEditTextPreference
+        android:key="device_name"
+        android:order="3"
+        android:title="@string/my_device_info_device_name_preference_title"
+        android:summary="@string/summary_placeholder"/>
+
+    <!-- Model & hardware -->
+    <Preference
+        android:key="device_model"
+        android:order="4"
+        android:title="@string/hardware_info"
+        settings:keywords="@string/keywords_model_and_hardware"
+        android:summary="@string/summary_placeholder"/>
+
+    <!-- Android version -->
+    <Preference
+        android:key="firmware_version"
+        android:order="5"
+        android:title="@string/firmware_version"
+        settings:keywords="@string/keywords_android_version"
+        android:summary="@string/summary_placeholder"/>
+
+    <!-- Build number -->
+    <Preference
+        android:key="build_number"
+        android:order="6"
+        android:title="@string/build_number"
         android:summary="@string/summary_placeholder"/>
 
     <!-- Changelog -->
     <Preference
         android:key="changelog"
-        android:order="3"
+        android:order="7"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.Changelog" />
@@ -52,10 +82,11 @@
     <!-- Phone Info -->
     <Preference
         android:key="radioinfo"
-        android:order="4"
+        android:order="8"
         android:title="@string/device_info_title"
         android:summary="@string/device_info_summary"
-        android:persistent="false">
+        android:persistent="false"
+        settings:allowDividerAbove="true">
         <intent
             android:targetPackage="com.android.settings"
             android:targetClass="com.android.settings.RadioInfo" />
@@ -64,16 +95,10 @@
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="5"
+        android:order="9"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"/>
-
-    <Preference
-        android:key="emergency_info"
-        android:order="6"
-        android:title="@string/emergency_info_title"
-        android:summary="@string/summary_placeholder"/>
 
     <!-- Legal information -->
     <!--Preference
@@ -81,31 +106,22 @@
         android:order="7"
         android:title="@string/legal_information"
         android:fragment="com.android.settings.LegalSettings"
-        settings:allowDividerAbove="true"/-->
+        settings:allowDividerAbove="true"/>-->
 
     <!-- Regulatory labels -->
-    <Preference
+    <!--<Preference
         android:key="regulatory_info"
         android:order="8"
         android:title="@string/regulatory_labels">
         <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
+    </Preference>-->
 
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
-        android:order="9"
+        android:order="10"
         android:title="@string/sim_status_title"
         settings:keywords="@string/keywords_sim_status"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"/>
-
-    <!-- Model & hardware -->
-    <Preference
-        android:key="device_model"
-        android:order="21"
-        android:title="@string/hardware_info"
-        settings:keywords="@string/keywords_model_and_hardware"
         android:summary="@string/summary_placeholder"/>
 
     <!-- IMEI -->
@@ -114,14 +130,6 @@
         android:order="22"
         android:title="@string/status_imei"
         settings:keywords="@string/keywords_imei_info"
-        android:summary="@string/summary_placeholder"/>
-
-    <!-- Android version -->
-    <Preference
-        android:key="firmware_version"
-        android:order="32"
-        android:title="@string/firmware_version"
-        settings:keywords="@string/keywords_android_version"
         android:summary="@string/summary_placeholder"/>
 
     <!--IP address -->
@@ -177,13 +185,5 @@
         android:order="42"
         android:title="@string/fcc_equipment_id"
         android:summary="@string/summary_placeholder"/>
-
-    <!-- Build number -->
-    <Preference
-        android:key="build_number"
-        android:order="43"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"/>
 
 </PreferenceScreen>
