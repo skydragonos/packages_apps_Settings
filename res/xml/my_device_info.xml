@@ -92,14 +92,6 @@
             android:targetClass="com.android.settings.RadioInfo" />
     </Preference>
 
-    <!-- Phone number -->
-    <Preference
-        android:key="phone_number"
-        android:order="9"
-        android:title="@string/status_number"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
-
     <!-- Legal information -->
     <!--Preference
         android:key="legal_container"
@@ -132,14 +124,6 @@
         settings:keywords="@string/keywords_sim_status"
         android:summary="@string/summary_placeholder"/>
 
-    <!-- IMEI -->
-    <Preference
-        android:key="imei_info"
-        android:order="22"
-        android:title="@string/status_imei"
-        settings:keywords="@string/keywords_imei_info"
-        android:summary="@string/summary_placeholder"/>
-
     <!--IP address -->
     <Preference
         android:key="wifi_ip_address"
@@ -164,14 +148,6 @@
         android:title="@string/status_bt_address"
         android:summary="@string/summary_placeholder"
         android:selectable="false"/>
-
-    <!-- Manual -->
-    <Preference
-        android:key="manual"
-        android:order="40"
-        android:title="@string/manual">
-        <intent android:action="android.settings.SHOW_MANUAL"/>
-    </Preference>
 
     <!-- Feedback on the device -->
     <Preference
