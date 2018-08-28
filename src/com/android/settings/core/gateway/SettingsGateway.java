@@ -138,6 +138,8 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.skydragon.settings.SkyDragonSettings;
+import com.skydragon.settings.fragments.ButtonSettings;
+import com.skydragon.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -263,7 +265,9 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            SkyDragonSettings.class.getName()
+            SkyDragonSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
