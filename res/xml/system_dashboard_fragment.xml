@@ -21,6 +21,12 @@
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="4">
 
+    <!-- SkyDragon Header -->
+    <Preference 
+        android:key="skydragon_logo"
+        android:order="-500"
+        android:layout="@layout/skydragon_logo" />
+
     <!-- Backup -->
     <Preference
         android:key="backup_settings"
