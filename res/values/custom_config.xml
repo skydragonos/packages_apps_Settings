@@ -23,4 +23,7 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
+
+    <bool name="config_show_color_mode">true</bool>
+
 </resources>
