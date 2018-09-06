@@ -31,11 +31,11 @@
     	   android:layout_height="wrap_content"
            android:selectable="false">
             <ImageView
-    	   android:layout_width="625dp"
+    	   android:layout_width="match_parent"
     	   android:layout_height="140dp"
     	   android:src="@drawable/ic_skydragon"
     	   android:adjustViewBounds="true"
-    	   android:scaleType="centerInside"
+    	   android:scaleType="fitCenter"
     	   android:tint="?android:attr/colorAccent" />
          </LinearLayout>
 

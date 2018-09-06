@@ -20,6 +20,6 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:adjustViewBounds="false"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:src="@drawable/ic_skydragon" />
 </LinearLayout> 
