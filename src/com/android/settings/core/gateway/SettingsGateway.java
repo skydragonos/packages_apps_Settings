@@ -23,6 +23,10 @@ import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
+import com.android.settings.Settings.FlingSettingsActivity;
+import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.PulseSettingsActivity;
+import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -145,7 +149,6 @@ import com.skydragon.settings.fragments.ButtonSettings;
 import com.skydragon.settings.fragments.HeadsUpSettings;
 import com.skydragon.settings.fragments.LockScreenSettings;
 import com.skydragon.settings.fragments.MiscSettings;
-import com.skydragon.settings.fragments.NavbarSettings;
 import com.skydragon.settings.fragments.NotificationSettings;
 import com.skydragon.settings.fragments.OmniGestureSettings;
 import com.skydragon.settings.fragments.PowerMenuSettings;
@@ -289,7 +292,6 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             LockScreenSettings.class.getName(),
             MiscSettings.class.getName(),
-            NavbarSettings.class.getName(),
             SkyDragonSettings.class.getName(),
             NotificationSettings.class.getName(),
             OmniGestureSettings.class.getName(),
@@ -303,6 +305,10 @@ public class SettingsGateway {
             StyleSettings.class.getName(),
             VolumeRockerSettings.class.getName(),
             Weather.class.getName(),
+            NavigationSettingsActivity.class.getName(),
+            SmartbarSettingsActivity.class.getName(),
+            FlingSettingsActivity.class.getName(),
+            PulseSettingsActivity.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -343,5 +349,9 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.SkyDragonSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }

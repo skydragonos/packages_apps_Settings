@@ -104,7 +104,6 @@ import com.skydragon.settings.fragments.ButtonSettings;
 import com.skydragon.settings.fragments.HeadsUpSettings;
 import com.skydragon.settings.fragments.LockScreenSettings;
 import com.skydragon.settings.fragments.MiscSettings;
-import com.skydragon.settings.fragments.NavbarSettings;
 import com.skydragon.settings.fragments.NotificationSettings;
 import com.skydragon.settings.fragments.OmniGestureSettings;
 import com.skydragon.settings.fragments.PowerMenuSettings;
@@ -217,7 +216,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(HeadsUpSettings.class);
         addIndex(LockScreenSettings.class);
         addIndex(MiscSettings.class);
-        addIndex(NavbarSettings.class);
         addIndex(NotificationSettings.class);
         addIndex(OmniGestureSettings.class);
         addIndex(PowerMenuSettings.class);
