@@ -139,8 +139,23 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.skydragon.settings.SkyDragonSettings;
+import com.skydragon.settings.fragments.BatteryLightSettings;
 import com.skydragon.settings.fragments.ButtonSettings;
 import com.skydragon.settings.fragments.HeadsUpSettings;
+import com.skydragon.settings.fragments.LockScreenSettings;
+import com.skydragon.settings.fragments.MiscSettings;
+import com.skydragon.settings.fragments.NavbarSettings;
+import com.skydragon.settings.fragments.NotificationSettings;
+import com.skydragon.settings.fragments.OmniGestureSettings;
+import com.skydragon.settings.fragments.PowerMenuSettings;
+import com.skydragon.settings.fragments.QuickSettings;
+import com.skydragon.settings.fragments.RecentsSettings;
+import com.skydragon.settings.fragments.SDGestureSettings;
+import com.skydragon.settings.fragments.StatusBarBattery;
+import com.skydragon.settings.fragments.StatusBarSettings;
+import com.skydragon.settings.fragments.StyleSettings;
+import com.skydragon.settings.fragments.VolumeRockerSettings;
+import com.skydragon.settings.fragments.Weather;
 
 public class SettingsGateway {
 
@@ -267,9 +282,25 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             SkyDragonSettings.class.getName(),
-            HeadsUpSettings.class.getName(),
+            BatteryLightSettings.class.getName(),
             ButtonSettings.class.getName(),
-            RunningServices.class.getName()
+            HeadsUpSettings.class.getName(),
+            LockScreenSettings.class.getName(),
+            MiscSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            SkyDragonSettings.class.getName(),
+            NotificationSettings.class.getName(),
+            OmniGestureSettings.class.getName(),
+            PowerMenuSettings.class.getName(),
+            QuickSettings.class.getName(),
+            RecentsSettings.class.getName(),
+            RunningServices.class.getName(),
+            SDGestureSettings.class.getName(),
+            StatusBarBattery.class.getName(),
+            StatusBarSettings.class.getName(),
+            StyleSettings.class.getName(),
+            VolumeRockerSettings.class.getName(),
+            Weather.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

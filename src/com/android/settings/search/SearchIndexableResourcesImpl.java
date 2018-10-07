@@ -99,6 +99,24 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.skydragon.settings.fragments.BatteryLightSettings;
+import com.skydragon.settings.fragments.ButtonSettings;
+import com.skydragon.settings.fragments.HeadsUpSettings;
+import com.skydragon.settings.fragments.LockScreenSettings;
+import com.skydragon.settings.fragments.MiscSettings;
+import com.skydragon.settings.fragments.NavbarSettings;
+import com.skydragon.settings.fragments.NotificationSettings;
+import com.skydragon.settings.fragments.OmniGestureSettings;
+import com.skydragon.settings.fragments.PowerMenuSettings;
+import com.skydragon.settings.fragments.QuickSettings;
+import com.skydragon.settings.fragments.RecentsSettings;
+import com.skydragon.settings.fragments.SDGestureSettings;
+import com.skydragon.settings.fragments.StatusBarBattery;
+import com.skydragon.settings.fragments.StatusBarSettings;
+import com.skydragon.settings.fragments.StyleSettings;
+import com.skydragon.settings.fragments.VolumeRockerSettings;
+import com.skydragon.settings.fragments.Weather;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -193,6 +211,24 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+        addIndex(BatteryLightSettings.class);
+        addIndex(ButtonSettings.class);
+        addIndex(GestureSettings.class);
+        addIndex(HeadsUpSettings.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(MiscSettings.class);
+        addIndex(NavbarSettings.class);
+        addIndex(NotificationSettings.class);
+        addIndex(OmniGestureSettings.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(RecentsSettings.class);
+        addIndex(SDGestureSettings.class);
+        addIndex(StatusBarBattery.class);
+        addIndex(StatusBarSettings.class);
+        addIndex(StyleSettings.class);
+        addIndex(VolumeRockerSettings.class);
+        addIndex(Weather.class);
     }
 
     @Override
