@@ -22,14 +22,14 @@
             <solid
                 android:color="@color/homepage_skydragon_background" />
             <size
-                android:width="48dp"
-                android:height="48dp" />
+                android:width="@dimen/dashboard_tile_image_size"
+                android:height="@dimen/dashboard_tile_image_size" />
         </shape>
     </item>
 
     <item
-        android:width="48dp"
-        android:height="48dp"
+        android:width="64dp"
+        android:height="64dp"
         android:start="0dp"
         android:top="0dp"
         android:drawable="@drawable/ic_settings_skydragon" />
