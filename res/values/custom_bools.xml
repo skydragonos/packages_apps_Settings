@@ -18,18 +18,6 @@
     <!-- Whether to disable eab provision -->
     <bool name="config_is_eab_provisioned">true</bool>
 
-    <!-- Expanded Desktop -->
-    <string-array name="expanded_desktop_entries" translatable="false">
-        <item>@string/expanded_hide_both</item>
-        <item>@string/expanded_hide_status</item>
-        <item>@string/expanded_hide_navigation</item>
-    </string-array>
-     <string-array name="expanded_desktop_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <!-- Whether to show a check box or switch for manual provision -->
     <bool name="config_custom_multi_sim_checkbox">false</bool>
 
