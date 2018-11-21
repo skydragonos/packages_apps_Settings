@@ -339,4 +339,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Font Picker -->
+    <string name="font_picker_title">Font Manager</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 </resources>
