@@ -72,6 +72,9 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
     }
 	
 	public void stopProgress() {
+        if (mFontPreference!=null) {
         mFontPreference.stopProgress();
+        mFontPreference = null;
+        }
     }
 }
