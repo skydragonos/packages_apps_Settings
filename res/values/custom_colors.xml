@@ -23,4 +23,6 @@
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
 
+    <color name="settings_icon_oneplus">@*android:color/omni_color1</color>
+
 </resources>
