@@ -28,9 +28,9 @@
     </item>
 
     <item
-        android:width="64dp"
-        android:height="64dp"
-        android:start="0dp"
-        android:top="0dp"
+        android:width="@dimen/dashboard_tile_foreground_image_size"
+        android:height="@dimen/dashboard_tile_foreground_image_size"
+        android:start="@dimen/dashboard_tile_foreground_image_inset"
+        android:top="@dimen/dashboard_tile_foreground_image_inset"
         android:drawable="@drawable/ic_settings_skydragon" />
 </layer-list>
