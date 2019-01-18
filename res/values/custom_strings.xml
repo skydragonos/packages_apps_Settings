@@ -348,4 +348,8 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Battery level</string> 
+    <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
+
 </resources>
