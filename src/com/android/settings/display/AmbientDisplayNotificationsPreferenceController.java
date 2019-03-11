@@ -87,7 +87,7 @@ public class AmbientDisplayNotificationsPreferenceController extends
         if (mConfig == null) {
             mConfig = new AmbientDisplayConfiguration(mContext);
         }
-        return mConfig.pulseOnNotificationAvailable() ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return mConfig.pulseOnNotificationAvailable() ? AVAILABLE : AVAILABLE;
     }
 
     @Override
