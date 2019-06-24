@@ -164,7 +164,7 @@
             android:label="@string/skydragon_settings_title"
             android:icon="@drawable/ic_homepage_skydragon"
             android:taskAffinity="com.android.settings">
-            <intent-filter android:priority="1">
+            <intent-filter android:priority="-1">
                 <action android:name="com.skydragon.settings.SkyDragonSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -174,7 +174,7 @@
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="12">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
