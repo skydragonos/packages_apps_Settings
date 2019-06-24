@@ -13,7 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- SkyDragon Settings -->
-    <string name="skydragon_settings_title">Dragon\'s Den</string>
+    <string name="skydragon_settings_title">Features</string>
     <string name="skydragon_settings_summary">Customization settings</string>
 
     <!-- Changelog -->
